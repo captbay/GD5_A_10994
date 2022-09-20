@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android-extensions'
 }
-
+//ga perlu inisiasi lagi kayak view binding
 apply plugin: 'kotlin-kapt'
 
 android {
@@ -37,9 +37,6 @@ android {
         viewBinding = true
     }
 
-    viewBinding {
-        enabled = true
-    }
 }
 
 dependencies {
